@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.relojTitulo {
+  display: flex;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.relojIcono {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  margin: 2px;
+  border-radius: 4px;
+}
+
+.contadorNumeroContainer {
+  display: flex;
+}
+
+.contadorNumero {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  margin: 2px;
+  border-radius: 4px;
 }
